@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Liste de courses</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/code.js"></script>
+
+    </head>
+    <body onload="afficher()">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div id="main">
+              <h1>Liste de courses</h1>
+              <form class="" action="index.html" method="post">
+                <p>
+                  Produit:<br>
+                  <input type="text" id="produit" value="" placeholder="Produit">
+                </p>
+                <p>
+                  Quantité:<br>
+                  <input type="text" id="quantite" value="" placeholder="Quantité">
+                </p>
+                <p>
+                  Prix:<br>
+                  <input type="text" id="prix" value="" placeholder="Prix">
+                </p>
+                <p>
+                  <input class="btn btn-primary" type="button" name="" value="Ajouter" onclick="ajouter()">
+                  <input class="btn btn-primary" type="button" name="" value="Modifier" onclick="modifier()">
+                  <input class="btn btn-primary" type="button" name="" value="Supprimer" onclick="supprimer()">
+                </p>
+
+              </form>
+            <div align="center" class="listes">
+              <table id="paires">
+
+              </table>
+            </div>
+            <br>
+            <p>
+              <input class="btn btn-info" type="button" name="" value="Clear" onclick="doclear()">
+            </p>
+          </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      <script src="js/jquery.js"></script>
+      <script src="js/popper.js"></script>
+      <script src="js/bootstrap.js"></script>
+    </body>
+</html>
